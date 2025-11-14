@@ -1,14 +1,18 @@
-import { fishList } from './fishList.js'
+import { mostHolyFish, soldierFish, regularFish } from './fishList.js'
 import { tipList } from './tipList.js'
 import { locationList } from './locationList.js'
 
 // Generate the fish list
-const fishHTML = fishList()
+// const fishHTML = fishList()
+const holyFish = mostHolyFish()
+const holyishFish = soldierFish()
+const unholyFish = regularFish()
+
 // Render each HTML string to the correct DOM element
 const fishSection = document.getElementById("fishList")
 if (fishSection) {
     // found, set HTML
-    fishSection.innerHTML = fishHTML
+    fishSection.innerHTML = `${holyFish}${holyishFish}${unholyFish}`
 } else {
     console.error('Could not find element with id "fishList"')
 }
