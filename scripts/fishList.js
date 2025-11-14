@@ -11,7 +11,7 @@ const fishHTML = (fish) => {
                 <h2 class="fish__name">${fish.name}</h2>
                 <ul cladd="fish__detail-list">
                     <li>${fish.species}</li>
-                    <li>${fish.length} cm</li>
+                    <li>${fish.length} inches</li>
                     <li>found at ${fish.location}</li>
                     <li>${fish.diet}</li>
                 </ul>
@@ -41,8 +41,8 @@ export const soldierFish = () => {
     let holyishFish = ""
 
     for (const fish of database.fish) {
-        // if fish.length is devisible by 5
-        if (fish.length % 5 === 0) {
+        // if fish.length is devisible by 5 and not 3 to avoid dupes
+        if (fish.length % 5 === 0 && !(fish.length % 3 === 0)) {
             holyishFish += fishHTML(fish)
         }
     }
