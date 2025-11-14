@@ -24,7 +24,7 @@ const fishHTML = (fish) => {
 
 export const mostHolyFish = () => {
     // 3, 6, 9, 12, etc... fish
-    const holyFish = ""
+    let holyFish = ""
 
     for (const fish of database.fish) {
         // if fish.length is devisible by 3
@@ -38,7 +38,7 @@ export const mostHolyFish = () => {
 
 export const soldierFish = () => {
     // 5, 10, 15, 20, 25, etc... fish
-    const holyishFish = ""
+    let holyishFish = ""
 
     for (const fish of database.fish) {
         // if fish.length is devisible by 5
@@ -52,7 +52,7 @@ export const soldierFish = () => {
 
 export const regularFish = () => {
     // Any fish not a multiple of 3 or 5
-    const unholyFish = ""
+    let unholyFish = ""
 
     for (const fish of database.fish) {
         // if fish.length is devisible by 5
