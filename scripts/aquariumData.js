@@ -125,6 +125,62 @@ export const database = {
         {
            topic: "Water Temperature",
            text: "Maintain a consistent water temperature between 75-80°F (24-27°C) for most tropical fish."
+        },
+        {
+          topic: "Water Changes",
+          text: "Perform weekly water changes of 10-20% to remove toxins and maintain water quality."
+        },
+        {
+          topic: "Nitrogen Cycle",
+          text: "Always cycle your tank for 4-6 weeks before adding fish to establish beneficial bacteria."
+        },
+        {
+          topic: "Feeding Schedule",
+          text: "Feed your fish small amounts 1-2 times daily, only what they can consume in 2-3 minutes."
+        },
+        {
+          topic: "Tank Size",
+          text: "Follow the rule of 1 inch of fish per gallon of water, but research species-specific needs."
+        },
+        {
+          topic: "Filter Maintenance",
+          text: "Clean your filter media monthly using old tank water to preserve beneficial bacteria."
+        },
+        {
+          topic: "Lighting Duration",
+          text: "Provide 8-10 hours of light per day to support plant growth and establish a natural day-night cycle."
+        },
+        {
+          topic: "Acclimation",
+          text: "Acclimate new fish slowly over 30-60 minutes by gradually mixing tank water with bag water."
+        },
+        {
+          topic: "pH Levels",
+          text: "Test pH weekly and keep it stable between 6.5-7.5 for most community fish species."
+        },
+        {
+          topic: "Overfeeding",
+          text: "Avoid overfeeding as uneaten food decomposes and creates harmful ammonia spikes."
+        },
+        {
+          topic: "Quarantine Tank",
+          text: "Use a separate quarantine tank for new fish for 2-4 weeks to prevent disease spread."
+        },
+        {
+          topic: "Plant Benefits",
+          text: "Live plants help absorb nitrates, produce oxygen, and provide natural hiding spots for fish."
+        },
+        {
+          topic: "Substrate Cleaning",
+          text: "Vacuum the gravel during water changes to remove debris and fish waste buildup."
+        },
+        {
+          topic: "Ammonia Testing",
+          text: "Test for ammonia and nitrites weekly; both should read 0 ppm in an established tank."
+        },
+        {
+          topic: "Stocking Gradually",
+          text: "Add fish gradually over several weeks to avoid overwhelming your biological filtration system."
         }
     ],
     locations: [
@@ -132,6 +188,26 @@ export const database = {
            name: "Great Barrier Reef",
            country: "Australia",
            description: "The Great Barrier Reef is the world's largest coral reef system, supporting a diverse array of marine life."
+        },
+        {
+          name: "Coral Triangle",
+          country: "Indonesia",
+          description: "The Coral Triangle is a marine area with exceptional biodiversity, home to over 600 coral species and thousands of reef fish."
+        },
+        {
+          name: "Red Sea",
+          country: "Egypt",
+          description: "The Red Sea features crystal-clear waters and vibrant coral reefs teeming with colorful tropical fish and unique marine species."
+        },
+        {
+          name: "Galápagos Islands",
+          country: "Ecuador",
+          description: "The Galápagos Islands offer remarkable underwater ecosystems with endemic species including marine iguanas, sea lions, and hammerhead sharks."
+        },
+        {
+          name: "Maldives Atolls",
+          country: "Maldives",
+          description: "The Maldives features pristine atolls with thriving coral gardens, manta rays, whale sharks, and an abundance of reef fish."
         }
     ]
 }
