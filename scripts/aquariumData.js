@@ -6,7 +6,7 @@ export const database = {
         length: 2,
         location: "Great Barrier Reef",
         diet: "Omnivore",
-        image: "https://example.com/images/dory.jpg"
+          image: "./images/dory.jpg"
       },
       {
         name: "Nemo",

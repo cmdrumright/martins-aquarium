@@ -18,7 +18,11 @@
 }
 
 .fish__image {
+    flex-shrink: 1;
     max-width: 10rem;
+    max-height: 10rem;
+    width: auto;
+    height: auto;
 }
 
 .fish__details {
