@@ -43,8 +43,6 @@
     flex-grow: 1;
     max-width: 400px;
     margin-bottom: 20px;
-    display: flex;
-    flex-direction: row;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -72,4 +70,8 @@
 
 .location__description {
     font-size: 16px;
+}
+
+.tip {
+    margin: 1rem;
 }
