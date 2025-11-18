@@ -14,7 +14,7 @@ export const database = {
         length: 3,
         location: "Great Barrier Reef",
         diet: "Omnivore",
-        image: "https://example.com/images/nemo.jpg"
+        image: "./images/nemo.jpg"
       },
       {
         name: "Bruce",
@@ -22,7 +22,7 @@ export const database = {
         length: 15,
         location: "Pacific Ocean",
         diet: "Carnivore",
-        image: "https://example.com/images/bruce.jpg"
+        image: "./images/bruce.jpg"
       },
       {
         name: "Gill",
@@ -30,7 +30,7 @@ export const database = {
         length: 6,
         location: "Indo-Pacific",
         diet: "Omnivore",
-        image: "https://example.com/images/gill.jpg"
+        image: "./images/gill.jpg"
       },
       {
         name: "Bubbles",
@@ -38,7 +38,7 @@ export const database = {
         length: 5,
         location: "Hawaiian Reefs",
         diet: "Herbivore",
-        image: "https://example.com/images/bubbles.jpg"
+        image: "./images/bubbles.jpg"
       },
       {
         name: "Peach",
@@ -46,7 +46,7 @@ export const database = {
         length: 9,
         location: "Coastal Waters",
         diet: "Carnivore",
-        image: "https://example.com/images/peach.jpg"
+        image: "./images/peach.jpg"
       },
       {
         name: "Jacques",
@@ -54,7 +54,7 @@ export const database = {
         length: 4,
         location: "Coral Reefs",
         diet: "Omnivore",
-        image: "https://example.com/images/jacques.jpg"
+        image: "./images/jacques.jpg"
       },
       {
         name: "Bloat",
@@ -62,7 +62,7 @@ export const database = {
         length: 12,
         location: "Tropical Reefs",
         diet: "Carnivore",
-        image: "https://example.com/images/bloat.jpg"
+        image: "./images/bloat.jpg"
       },
       {
         name: "Anchor",
@@ -70,7 +70,7 @@ export const database = {
         length: 10,
         location: "Warm Ocean Waters",
         diet: "Carnivore",
-        image: "https://example.com/images/anchor.jpg"
+        image: "./images/anchor.jpg"
       },
       {
         name: "Squirt",
@@ -78,7 +78,7 @@ export const database = {
         length: 18,
         location: "East Australian Current",
         diet: "Omnivore",
-        image: "https://example.com/images/squirt.jpg"
+        image: "./images/squirt.jpg"
       },
       {
         name: "Marlin",
@@ -86,7 +86,7 @@ export const database = {
         length: 7,
         location: "Great Barrier Reef",
         diet: "Omnivore",
-        image: "https://example.com/images/marlin.jpg"
+        image: "./images/marlin.jpg"
       },
       {
         name: "Crush",
@@ -94,7 +94,7 @@ export const database = {
         length: 20,
         location: "Ocean Currents",
         diet: "Herbivore",
-        image: "https://example.com/images/crush.jpg"
+        image: "./images/crush.jpg"
       },
       {
         name: "Nigel",
@@ -102,7 +102,7 @@ export const database = {
         length: 8,
         location: "Sydney Harbor",
         diet: "Carnivore",
-        image: "https://example.com/images/nigel.jpg"
+        image: "./images/nigel.jpg"
       },
       {
         name: "Destiny",
@@ -110,7 +110,7 @@ export const database = {
         length: 21,
         location: "Open Ocean",
         diet: "Filter Feeder",
-        image: "https://example.com/images/destiny.jpg"
+        image: "./images/destiny.jpg"
       },
       {
         name: "Bailey",
@@ -118,7 +118,7 @@ export const database = {
         length: 14,
         location: "Marine Life Institute",
         diet: "Carnivore",
-        image: "https://example.com/images/bailey.jpg"
+        image: "./images/bailey.jpg"
       }
     ],
     tips: [
